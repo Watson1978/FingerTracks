@@ -27,7 +27,7 @@ App = Motion::Project::App
 App.template = :ios
 
 require 'motion/project'
-require 'motion/project/template/ios/config'
+require 'FingerTracks/config'
 require 'motion/project/template/ios/builder'
 
 desc "Build the project, then run the simulator"
