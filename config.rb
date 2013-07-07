@@ -419,7 +419,7 @@ EOS
         RubyMotionInit(argc, argv);
 EOS
       main_txt << <<EOS
-        retval = UIApplicationMain(argc, argv, nil, @"#{delegate_class}");
+        retval = UIApplicationMain(argc, argv, @"#{delegate_class}", @"#{delegate_class}");
         rb_exit(retval);
     }
     catch (...) {
